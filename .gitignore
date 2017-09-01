@@ -1,2 +1,8 @@
 # Ignore server files
 server
+
+# Mac
+**/.DS_Store
+
+# Vim
+**/.*.swp
