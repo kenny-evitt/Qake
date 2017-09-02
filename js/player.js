@@ -450,6 +450,7 @@ function Player () {
 
     Player.prototype.CanMove = function(type) {
         //this.mesh.updateMatrixWorld();
+
         for (var i = 0; i < this.chunk.blockList.length; i+=2) {
             var b = this.chunk.blockList[i];
 
@@ -487,6 +488,7 @@ function Player () {
                 return false;
             }
         }
+
         return true;
     };
 
