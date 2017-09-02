@@ -60,7 +60,6 @@ function Game() {
     Game.prototype.Init = function(mapId) {
         this.clock = new THREE.Clock();
         this.stats = new Stats();
-        this.stats = new Stats();
         this.stats.domElement.style.position = 'absolute';
         this.stats.domElement.style.bottom = '0px';
         this.stats.domElement.style.zIndex = 100;
